@@ -1,0 +1,18 @@
+﻿body.rule-row {
+    transition: all 0.3s ease;
+}
+
+.rule-row:hover {
+    background-color: #f8f9fa;
+    transform: translateX(2px);
+}
+
+/* Custom scrollbar for logs */
+.card-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+    background-color: #adb5bd;
+    border-radius: 4px;
+}
